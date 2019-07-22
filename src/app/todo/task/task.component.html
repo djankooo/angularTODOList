@@ -1,0 +1,12 @@
+<div>
+  <h1>
+    {{task.name}}
+  </h1>
+  <h2>
+    {{task.description}}
+  </h2>
+  <button (click)="removeTaskByID(task.id)">Remove!</button>
+ <hr>
+</div>
+
+{{task | json}}

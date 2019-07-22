@@ -1,0 +1,9 @@
+<div *ngFor="let taskTableElement of tasks" >
+  <app-task (emit)="getTaskList() "[task]="taskTableElement"></app-task>
+</div>
+
+
+
+
+
+
